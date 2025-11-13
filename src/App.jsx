@@ -32,9 +32,9 @@ function App() {
       src: "",
     },
     {
-      name: "Mail",
+      name: "Project",
       url: "",
-      dscr: "This is my email project",
+      dscr: "This is my project",
       src: "",
     },
   ]
