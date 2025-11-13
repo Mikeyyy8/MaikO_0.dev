@@ -14,7 +14,7 @@ function App() {
     },
     {
       name: "Mail",
-      url: "mailto:",
+      url: "mailto:mailto:mikeyyyglo12@gmail.com",
     },
   ]
 
@@ -33,7 +33,7 @@ function App() {
     },
     {
       name: "Mail",
-      url: "mailto:",
+      url: "",
       dscr: "This is my email project",
       src: "",
     },
@@ -55,7 +55,7 @@ function App() {
               solving problems by building responsive and user-friendly software.
             </p>
             <p>I'm currently working on <a href="https://pencil-boy.vercel.app/" target="_blank" 
-            rel="noopener noreferrer" className="text-orange-500 hover:">PencilBoy</a>.</p>
+            rel="noopener noreferrer" className="text-orange-500 decoration-1 underline">PencilBoy</a>.</p>
             <p>
               I'm a multidisciplinary programmer that works primarily with Javascript,
               TypeScript and PHP. But I also have interest and experience in
