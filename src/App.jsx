@@ -14,7 +14,7 @@ function App() {
     },
     {
       name: "Mail",
-      url: "mailto:mailto:mikeyyyglo12@gmail.com",
+      url: "mailto:mikeyyyglo12@gmail.com",
     },
   ]
 
