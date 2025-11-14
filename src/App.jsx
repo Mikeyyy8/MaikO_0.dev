@@ -22,13 +22,13 @@ function App() {
     {
       name: "PencilBoy",
       url: "",
-      dscr: "Ecommerce website",
+      dscr: "Ecommerce API",
       src: "",
     },
     {
-      name: "Project",
+      name: "Qshare",
       url: "",
-      dscr: "Backend something",
+      dscr: "A simple text sharing API with auth.",
       src: "",
     },
     {
@@ -44,21 +44,21 @@ function App() {
 
   return (
     <div className="flex justify-center items-center bg-neutral-950 text-neutral-500 ">
-      <section className="md:max-w-1/2 m-5 space-y-10 my-10 text-justify md:my-30">
+      <section className="md:max-w-1/2 m-5 space-y-10 my-10 md:text-justify md:my-30">
         <div className="space-y-10">
           <h1 className="text-2xl text-neutral-50">
             Hey there, My name's Michael.
           </h1>
           <div className="space-y-8">
             <p>
-              This is my portfolio! I'm a computer Engineer with a drive for
+              I'm a computer Engineer with a drive for
               solving problems by building responsive and user-friendly software.
             </p>
             <p>I'm currently working on <a href="https://pencil-boy.vercel.app/" target="_blank" 
             rel="noopener noreferrer" className="text-orange-500 decoration-1 underline">PencilBoy</a>.</p>
             <p>
               I'm a multidisciplinary programmer that works primarily with Javascript,
-              TypeScript and PHP. But I also have interest and experience in
+              TypeScript and PHP. I also have interest and experience in
               languages like C++ and Python.
             </p>
             <p className="italic text-sky-200">
@@ -66,7 +66,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="flex gap-5 text-neutral-50">
+        <div className="flex  md:flex-row gap-2 md:gap-5 text-neutral-50">
           {linkElements}
         </div>
 
