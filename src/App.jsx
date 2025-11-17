@@ -21,7 +21,7 @@ function App() {
   const myProjects = [
     {
       name: "PencilBoy",
-      url: "",
+      url: "https://pencil-boy.vercel.app/",
       dscr: "Ecommerce API",
       src: "",
     },
@@ -29,18 +29,13 @@ function App() {
       name: "Qshare",
       url: "",
       dscr: "A simple text sharing API with auth.",
-      src: "",
-    },
-    {
-      name: "Project",
-      url: "",
-      dscr: "This is my project",
-      src: "",
+      src: "https://github.com/Mikeyyy8/Qshare",
     },
   ]
 
   const linkElements = myLinks.map(link => <Link key={link.name} name={link.name} url={link.url} />)
-  const projectElements = myProjects.map(project => <Project key={project.name} name={project.name} url={project.url} dscr={project.dscr} />)
+  const projectElements = myProjects.map(project => <Project key={project.name}
+     name={project.name} url={project.url} dscr={project.dscr} src={project.src} />)
 
   return (
     <div className="flex justify-center items-center bg-neutral-950 text-neutral-500 ">
