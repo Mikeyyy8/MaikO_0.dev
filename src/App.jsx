@@ -23,13 +23,13 @@ function App() {
       name: "PencilBoy",
       url: "https://pencil-boy.vercel.app/",
       dscr: "Ecommerce API",
-      src: "",
+      src: "./assets/pencilboywhite.png",
     },
     {
       name: "Qshare",
-      url: "",
+      url: "https://github.com/Mikeyyy8/Qshare",
       dscr: "A simple text sharing API with auth.",
-      src: "https://github.com/Mikeyyy8/Qshare",
+      src: "",
     },
   ]
 
