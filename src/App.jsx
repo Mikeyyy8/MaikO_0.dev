@@ -23,7 +23,7 @@ function App() {
       name: "PencilBoy",
       url: "https://pencil-boy.vercel.app/",
       dscr: "Ecommerce API",
-      src: "./assets/pencilboywhite.png",
+      src: "../src/assets/pencilboywhite.png",
     },
     {
       name: "Qshare",
@@ -57,7 +57,7 @@ function App() {
               languages like C++ and Python.
             </p>
             <p className="italic text-sky-200">
-              "My goal is to solve problems and build cool things"
+              "You can't cross the sea by merely standing and staring at the water." - Rabindranath Tagore.
             </p>
           </div>
         </div>

@@ -6,7 +6,7 @@ const Project = ({ name, url, dscr, src }) => {
           <img
             src={src ? src : `https://placehold.co/50x50?text=${name.slice(0,2)}`}
             alt={name}
-            className=""
+            className="flex object-cover h-full w-full rounded"
           />
         </div>
         <div>
